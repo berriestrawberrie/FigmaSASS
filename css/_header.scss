@@ -1,0 +1,29 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: fonts.$main-font;
+    font-weight: 700;
+    font-size: 18px;
+    
+    ul{
+        width: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+
+    li{
+      
+        a{
+            text-decoration: none;
+            color: colors.$brand-black;
+        }/*END OF LI*/
+
+    }
+
+}/*END OF NAV */
+

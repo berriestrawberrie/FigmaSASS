@@ -1,0 +1,10 @@
+@use 'fonts';
+@use 'colors';
+
+@import 'header';
+
+body {
+    max-width: 1109px;
+    width: 100%;
+    margin: 0 auto;
+}
