@@ -2,9 +2,38 @@
 @use 'colors';
 
 @import 'header';
+@import 'home';
+
+*{
+    font-family: fonts.$main-font;
+}
 
 body {
     max-width: 1109px;
     width: 100%;
     margin: 0 auto;
 }
+
+h1{
+    color: colors.$brand-black;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2{
+    color: colors.$brand-black;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: bold;
+
+}
+
+h3 {
+    color: colors.$brand-color;
+    font-size: 22px;
+    letter-spacing: -.42px;
+    font-weight: bold;
+}
+

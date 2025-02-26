@@ -2,12 +2,13 @@
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     width: 100%;
-    font-family: fonts.$main-font;
     font-weight: 700;
     font-size: 18px;
-    
+
+    height: 100px;
+
     ul{
         width: 20%;
         display: flex;
