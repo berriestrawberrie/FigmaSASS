@@ -3,7 +3,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 150px;
     padding-top: 20px;
     font-weight: 700;
     font-size: 18px;
@@ -32,10 +32,9 @@ footer{
             text-decoration: none;
             color: colors.$brand-black;
         }
-        a:hover{
-            opacity: .4;
-            
-        
-        }
     }
 }/*END OF FOOTER LINKS */
+
+a:hover{
+    opacity: .4;
+}

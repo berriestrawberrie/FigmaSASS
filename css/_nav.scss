@@ -23,13 +23,11 @@ nav{
             text-decoration: none;
             color: colors.$brand-black;
         }
-        a:hover{
-            opacity: .4;
-            
-        
-        }
-
     }
 
 }/*END OF NAV */
+
+a:hover{
+    opacity: .4;
+}
 

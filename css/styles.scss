@@ -1,12 +1,15 @@
 @use 'fonts';
 @use 'colors';
 
-@import 'header';
+@import 'nav';
 @import 'home';
 @import 'footer';
+@import 'projects';
+@import 'contact';
 
 *{
     font-family: fonts.$main-font;
+    color: colors.$brand-black;
 }
 
 body {
@@ -38,3 +41,8 @@ h3 {
     font-weight: bold;
 }
 
+p{
+    font-size: 16px;
+    line-height: 26px;
+            
+}
